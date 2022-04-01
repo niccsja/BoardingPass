@@ -41,6 +41,11 @@ public class BoardingPass
         passNumber = newPassNumber();
         finalPrice = getDiscountPrice(age, gender);
     }
+
+    public BoardingPass() {
+
+    }
+
     public int newPassNumber()
     {
         passes++;
